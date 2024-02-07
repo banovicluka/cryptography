@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bcprov-jdk18on-171">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Java/Bouncy Castle Provider/bcprov-jdk18on-171.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

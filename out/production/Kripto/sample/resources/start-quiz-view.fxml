@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="347.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartController">
+   <children>
+      <Button fx:id="startQuizButton" layoutX="147.0" layoutY="182.0" mnemonicParsing="false" onMouseClicked="#startQuizButtonClicked" prefHeight="53.0" prefWidth="137.0" text="POKRENI KVIZ" />
+      <Label fx:id="infoLabel" alignment="CENTER" layoutX="65.0" layoutY="32.0" prefHeight="69.0" prefWidth="301.0" text="Dodajte svoj sertifikat da bi ste pokrenuli kviz!" textFill="#fc0000" wrapText="true" />
+      <Button fx:id="addCertificateButton" layoutX="147.0" layoutY="113.0" mnemonicParsing="false" onAction="#addCertificateButtonClicked" prefHeight="53.0" prefWidth="137.0" text="DODAJ SERTIFIKAT" />
+      <Button fx:id="logoutButton" layoutX="147.0" layoutY="250.0" mnemonicParsing="false" onAction="#logoutButtonClicked" prefHeight="53.0" prefWidth="137.0" text="ODJAVI SE" />
+   </children>
+</AnchorPane>
